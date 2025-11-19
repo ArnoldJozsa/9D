@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(245, 197, 76); /*Háttérszín*/
+    color: blue;/*Betűszín*/
+    
+
+}
+.doboz{  /* a divre .doboz-ként tudunk hivatkozni*/
+    background-color: red;
+    color: rgb(251, 255, 0);
+    text-align:center;/*Szöveg igazítása*/
+}

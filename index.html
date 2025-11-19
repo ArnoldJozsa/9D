@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--Itt a css hozzárendelése-->
+</head>
+<body>
+    <!--H1-H6 H1 a legnagyobb, H6 a legkisebb -->
+    <h1>Ez a h1</h1><!--Ez egy h1-->
+    <h6>Ez a h6</h6><!--H6-->
+    <p>Szöveg</p><!--Ebben tudunk szöveget tárolni-->
+    <br><!--Ez a sortörés-->
+    <a href="https://www.google.com">Google</a> <!--Ez csinál egy kattintható linket ami megnyitja a google-t-->
+    <br>
+    <a href="https://www.google.com" target="_blank">Ugrás</a> <!--Ugyan az mint előbb csak a target="_blank" miatt uj ablakban nyitja meg az oldalt-->
+
+    <!--UL RENDEZETLEN LISTA-->
+    <ul>
+        <li>Egyik elem</li> <!--LI A LISTA ELEMEI-->
+        <li>Masik elem</li>
+    </ul>
+    <br>
+    <!--OL RENDEZETT LISTA-->
+    <ol>
+        <li>Első</li>
+        <li>Második</li>
+    </ol>
+    <br>
+
+    <table border="1">  <!--Táblazat-->
+    <tr>
+        <th>Név</th>
+        <th>Életkor</th>
+    </tr>
+    <tr>
+        <td>Anna</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Bence</td>
+        <td>13</td>
+    </tr>
+    </table>
+    <br>
+    <!--Kép -->
+    <img src="példa.jpg" alt="Ez egy kép"><!--SRC="" IDE A KÉP ELÉRÉSI UTJA, HA EGY MAPPÁBAN VANNAK AKKOR ELÉG A NEVE ÉS KITEJRESZTÉSE -->
+    <!--Az alt="" az egy szöveg ami akkor jelenik meg ha nem tudja megjeleniteni a képet. -->
+    <img src="példa2.jpg" alt="" width="250" height="250"> <!--width: szélessége, height: magassága -->
+    <br>
+    <div class="doboz">  <!--class: ez megajda hogy mi lesz a div neve és hogy tudunk rá hivatkozni-->
+        <h2>Ez egy h2</h2>
+        <p>Szöveg</p>
+    </div>
+
+<!-- EZ ITT EGY CSS LENNE 
+    body{
+    background-color: rgb(245, 197, 76); /*Háttérszín*/
+    color: blue;/*Betűszín*/
+    }
+
+    .doboz{  /* a divre .doboz-ként tudunk hivatkozni*/
+    background-color: red;
+    color: rgb(251, 255, 0);
+    text-align:center;/*Szöveg igazítása*/
+}   -->
+
+</body>
+</html>
